@@ -6,7 +6,7 @@ describe('distance calculator', () => {
       assert.equal(10, calculator.distance(5, 10));
     });
     it ('should return 20 when left > right', () => {
-      assert.equal(10, calculator.distance(17, 10));
+      assert.equal(10, calculator.distance(18, 10));
     });
   });
 });
